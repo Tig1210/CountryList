@@ -1,0 +1,57 @@
+.main {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.block {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image {
+  max-width: 600px;
+  width: 100%;
+}
+
+.image img {
+  max-width: 800px;
+  width: 100%;
+  border: 1px solid gray;
+}
+
+.info {
+  width: 60%;
+  margin-left: 50px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.bl__Bord {
+  display: flex;
+  align-items: center;
+}
+
+.bord__list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bord {
+  width: 100px;
+  border: 1px solid gray;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.bord p {
+  margin: 0;
+}
